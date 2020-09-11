@@ -1,0 +1,3 @@
+include ':arrowtooltiplayout'
+include ':app'
+rootProject.name = "ArrowTooltipSample"

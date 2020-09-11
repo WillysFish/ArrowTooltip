@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ArrowTooltipLayout">
+        <attr name="arrowOrientation" format="enum">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+            <enum name="start" value="2" />
+            <enum name="end" value="3" />
+        </attr>
+        <attr name="tipLayoutStyle" format="enum">
+            <enum name="fill" value="0" />
+            <enum name="stroke" value="1" />
+            <enum name="fill_and_stroke" value="2" />
+        </attr>
+        <attr name="positionPercentage" format="float" />
+        <attr name="tipLayoutColor" format="color" />
+        <attr name="tipLayoutRadius" format="dimension" />
+        <attr name="arrowHeight" format="dimension" />
+        <attr name="arrowWidth" format="dimension" />
+    </declare-styleable>
+</resources>
